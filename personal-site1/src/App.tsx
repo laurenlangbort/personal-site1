@@ -3,7 +3,9 @@ import './App.css'
 import About from "./components/about";  
 import Navbar from "./components/navbar"; 
 import Project from "./components/project"; 
-import Interest from "./components/interests";
+import Interest from "./components/interests"; 
+import Contact from "./components/contact";
+
 
 function App() {
 
@@ -12,7 +14,8 @@ function App() {
       <Navbar />
       <About />  
       <Project />  
-      <Interest /> 
+      <Interest />  
+      <Contact />
     </>
   )
 }
