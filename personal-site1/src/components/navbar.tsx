@@ -1,6 +1,7 @@
 
 import chillImage from '../assets/chill.png';
-import "./navbar.css";
+import "./navbar.css"; 
+import React from 'react';
 
 export default function Navbar() {
   return (

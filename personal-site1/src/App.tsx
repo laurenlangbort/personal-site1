@@ -1,10 +1,11 @@
 
-import './App.css' 
-import About from "./components/about";  
-import Navbar from "./components/navbar"; 
-import Project from "./components/project"; 
-import Interest from "./components/interests"; 
-import Contact from "./components/contact";
+import './App.css'  
+import React from 'react';
+import About from "./components/about.tsx";  
+import Navbar from "./components/navbar.tsx"; 
+import Project from "./components/project.tsx"; 
+import Interest from "./components/interests.tsx"; 
+import Contact from "./components/contact.tsx";
 
 
 function App() {

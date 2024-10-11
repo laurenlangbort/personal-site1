@@ -1,6 +1,7 @@
 
+import React from 'react';
 import "./about.css";
-import { ImageSlider, SliderData } from "./images-about";
+import { ImageSlider, SliderData } from "./images-about.tsx";
 import puzzle from "../assets/puzzle.png";
 
 export default function About() {
@@ -34,7 +35,7 @@ export default function About() {
             I'm a senior at Tufts University, majoring in Computer Science and
             Cognitive Brain Science. I've always been fascinated by how our
             unique experiences and perceptions influence the way we interact
-            with the world, and I’m passionate about using technology to create
+            with the world, and I am passionate about using technology to create
             solutions that cater to people's diverse needs. By combining my
             technical skills with creativity and understanding of human
             experiences, I love finding innovative ways to bring ideas to life.

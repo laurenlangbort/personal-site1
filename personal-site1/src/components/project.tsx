@@ -4,7 +4,8 @@ import diagram from "../assets/picsForSite/erdiagram.png";
 import digs from "../assets/picsForSite/digsfact.png";
 import ft from "../assets/picsForSite/fruitytreasures.png";
 import um from "../assets/picsForSite/UM.png";
-import turt from "../assets/turtles.png";
+import turt from "../assets/turtles.png"; 
+import React from 'react';
 
 export default function Project() {
   return (

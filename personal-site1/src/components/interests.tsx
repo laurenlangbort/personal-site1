@@ -1,4 +1,5 @@
 
+import React from 'react';
 import "./interests.css"; 
 import yoga from '../assets/Yoga.png'; 
 import drawing from '../assets/Drawing.png'; 
