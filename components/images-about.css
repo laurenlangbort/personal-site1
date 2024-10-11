@@ -1,0 +1,48 @@
+.image {
+    width: 30vw;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+    z-index: 2;
+  }
+  
+  .image {
+    width: 20vw !important;
+    height: auto !important; 
+    z-index: 2 !important;
+  }
+  
+  .slider {
+    display: flex;
+    justify-content: center; 
+    position: relative; 
+    bottom: 100px;
+  }
+  
+  .arrow-left,
+  .arrow-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); 
+    font-size: 2rem; 
+    cursor: pointer;
+    z-index: 10;
+    color: #000; 
+  }
+  
+  .arrow-left {
+    left: -70px; 
+  }
+  
+  .arrow-right {
+    right: -70px;
+  } 
+  
+  .butterfly {
+      position: absolute; /* Or fixed depending on your needs */
+      top: 180px; /* Adjust the top position */
+      left: -160px; /* Adjust the left position */
+      z-index: 0; 
+      width: 220px; 
+      height: auto; 
+    }
