@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview", 
     "homepage": "https://laurenlangbort.github.io/personal-site1", 
-    "publish": "gh-pages -d src"
+    "publish": "gh-pages -d dist"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
