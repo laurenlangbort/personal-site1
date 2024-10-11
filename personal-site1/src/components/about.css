@@ -1,0 +1,47 @@
+@font-face {
+    font-family: public-sans;
+    src: url(../assets/Public_Sans/PublicSans-VariableFont_wght.ttf);
+  }
+
+
+  .image {
+    width: 20vw;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  } 
+
+  .puzzle {
+    position: relative; 
+    width: 500px; 
+    right: -100px; 
+    opacity: 0.75; 
+    top: 100px;
+  } 
+
+  .position-para {
+    width: 50vw;
+     top: 100px;
+      left: 100px; 
+} 
+
+@media (max-width: 768px) { 
+    .position-para {
+        width: 50vw;
+         top: 100px;
+          left: 0px; 
+    }  
+    .puzzle {
+      display: none;
+    } 
+
+} 
+
+@media (max-width: 568px) { 
+  .position-para {
+      width: 80vw;
+       top: 100px;
+        left: 0px; 
+  }  
+
+}
